@@ -1,0 +1,38 @@
+{
+  "name": "token22-swap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Token-2022 AMM with Transfer Hook Support",
+  "scripts": {
+    "build": "anchor build",
+    "deploy": "anchor deploy --provider.cluster devnet",
+    "test": "anchor test --provider.cluster devnet",
+    "initialize": "node scripts/initialize.js",
+    "initialize-ts": "ts-node scripts/initialize.ts",
+    "setup": "npm run build && npm run deploy && npm run initialize"
+  },
+  "keywords": [
+    "solana",
+    "token22",
+    "amm",
+    "defi"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.31.1",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.4",
+    "@types/chai": "^5.2.2",
+    "@types/mocha": "^10.0.10",
+    "chai": "^5.2.1",
+    "dotenv": "^17.2.1",
+    "mocha": "^11.7.1",
+    "ts-mocha": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

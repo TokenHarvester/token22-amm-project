@@ -4,7 +4,7 @@
 
 https://token22-lr3cb3dbe-elochuwku-orjis-projects.vercel.app/
 
-## Deployed Program Live Demo to Devnet
+## Deployed Program to Devnet
 
 ``` bash
 // Swap Program

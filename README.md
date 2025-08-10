@@ -77,3 +77,63 @@ cargo >= 1.70.0
 git clone https://github.com/TokenHarvester/token22-amm-project.git
 cd token22-amm-project
 ```
+**2. Environment Setup**
+``` bash
+# Install Solana CLI
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source ~/.cargo/env
+sh -c "$(curl -sSfL https://release.solana.com/v1.17.0/install)"
+
+# Install Anchor CLI
+npm install -g @coral-xyz/anchor-cli@0.29.0
+
+# Configure Solana
+solana config set --url https://api.devnet.solana.com
+solana-keygen new --outfile ~/.config/solana/id.json --no-bip39-passphrase
+solana airdrop 5
+```
+
+**3. Build Smart Contracts**
+``` bash
+# Build the Anchor programs
+anchor build
+
+# Deploy to Devnet
+anchor deploy --provider.cluster devnet
+
+# Run tests
+anchor test --provider.cluster devnet
+```
+
+**4. Frontend Setup**
+``` bash
+cd frontend-ui
+
+# Install dependencies (with fixed package versions)
+npm install
+
+# Update program IDs in constants.ts with your deployed program IDs
+# Edit src/utils/constants.ts and replace placeholder program IDs
+
+# Start development server
+npm start
+```
+
+## 🔧 Configuration
+
+**Update Program IDs**
+
+After deployment, update frontend/src/utils/constants.ts:
+``` bash
+export const SWAP_PROGRAM_ID = new PublicKey('YourSwapProgramId'); // Replace with actual ID
+export const HOOK_PROGRAM_ID = new PublicKey('YourHookProgramId'); // Replace with actual ID
+```
+
+## Environment Variables
+
+Create frontend/.env.local:
+``` bash
+REACT_APP_SOLANA_NETWORK=devnet
+REACT_APP_SWAP_PROGRAM_ID=YourSwapProgramId
+REACT_APP_HOOK_PROGRAM_ID=YourHookProgramId
+```

@@ -23,3 +23,34 @@ Built a complete AMM that natively supports Token-2022 with transfer hooks, feat
 
 - **token22-swap:** Main AMM program with hook validation and trading logic
 - **whitelist-hook:** Example transfer hook implementing KYC/whitelist functionality
+
+## Frontend Application
+
+- **React + TypeScript:** Modern web interface
+- **Solana Wallet Integration:** Support for all major Solana wallets
+- **Real-time Updates:** Live pool data and transaction status
+
+## 🚀 Key Features
+
+**✨ Core Functionality**
+
+- ✅ Create Token-2022 with programmable transfer hooks
+- ✅ Initialize liquidity pools with automatic hook validation
+- ✅ Execute swaps with pre-transaction security checks
+- ✅ Add/remove liquidity with proper token handling
+- ✅ Real-time pool metrics and trading data
+
+**🔒 Security Features**
+
+- ✅ Whitelist-based hook approval system
+- ✅ Pre-swap validation prevents transaction failures
+- ✅ Slippage protection with customizable tolerance
+- ✅ Overflow/underflow protection in calculations
+- ✅ Admin-controlled security parameters
+
+**🎛️ Advanced Features**
+
+- ✅ Multi-hook support per token
+- ✅ Fee collection and distribution
+- ✅ Emergency pause functionality
+- ✅ Upgradeable program architecture

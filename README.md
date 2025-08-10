@@ -225,6 +225,36 @@ npm run test:integration
 - **Error Handling:** Graceful failure modes
 - **Wallet Security:** Industry-standard practices
 
+## 📈 Future Roadmap
+
+**Phase 1: Core Enhancements**
+
+- Multiple simultaneous hooks per token
+- Advanced fee structures
+- Governance integration for hook approval
+
+**Phase 2: DeFi Integration**
+
+- Cross-protocol liquidity aggregation
+- Integration with existing AMMs (adapter pattern)
+- Yield farming capabilities
+
+**Phase 3: Enterprise Features**
+
+- Formal verification of critical functions
+- Advanced analytics dashboard
+- API for institutional integration
+
+## 🤝 Contributing
+
+We welcome contributions! Please follow these steps:
+
+1. **Fork** the repository
+2. **Create** a feature branch 
+3. **Commit** your changes 
+4. **Push** to the branch
+5. **Open** a Pull Request
+
 ## 📄 License
 
 This project is licensed under the MIT License 

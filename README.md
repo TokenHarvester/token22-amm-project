@@ -225,6 +225,6 @@ npm run test:integration
 - **Error Handling:** Graceful failure modes
 - **Wallet Security:** Industry-standard practices
 
-##📄 License
+## 📄 License
 
 This project is licensed under the MIT License 

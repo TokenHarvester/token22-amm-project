@@ -4,6 +4,30 @@
 
 https://token22-lr3cb3dbe-elochuwku-orjis-projects.vercel.app/
 
+## Deployed Program Live Demo to Devnet
+
+``` bash
+// Swap Program
+
+Program Id: H8j9y1sARxb73rL2RFqfpKG8Yi9CYXmgcha5n7QLYmbU
+Owner: BPFLoaderUpgradeab1e11111111111111111111111
+ProgramData Address: HuVbY9DG5LuVVw9ZDD4W7nsEAS6YuMhcuYFtNF1APbYK
+Authority: 9zL4G26GmqrDrwTzrkBoWd4zom7F268JKQoLQdaa4Ta2
+Last Deployed In Slot: 399995164
+Data Length: 319696 (0x4e0d0) bytes
+Balance: 2.22628824 SOL
+
+// Hook Program
+
+Program Id: EYzLSaUydn5GLBov2G1ypmL7s3zYqNyNfxY3BQZ7Rdy2
+Owner: BPFLoaderUpgradeab1e11111111111111111111111
+ProgramData Address: 5dtEUoaDyaY8xrbHSR8y54sTwt9KGbadS9h3tuQzRwdd
+Authority: 9zL4G26GmqrDrwTzrkBoWd4zom7F268JKQoLQdaa4Ta2
+Last Deployed In Slot: 399995510
+Data Length: 230320 (0x383b0) bytes
+Balance: 1.60423128 SOL
+```
+
 ## 🎯 Problem Statement
 
 Major AMMs (Raydium, Orca, Meteora) don't support Token-2022 with transfer hooks, creating a significant barrier for regulated assets, RWAs (Real World Assets), and any tokens requiring programmable transfer restrictions. This limits DeFi adoption for compliant tokenized assets.
@@ -176,6 +200,10 @@ REACT_APP_HOOK_PROGRAM_ID=YourHookProgramId
 3. Review route and fees
 4. Execute swap with hook validation
 ```
+
+## Demo Video
+
+https://drive.google.com/file/d/1a2GF58keiW7hTbEe56U6G300EQrqrJD8/view?usp=drivesdk
 
 ## 🧪 Testing
 

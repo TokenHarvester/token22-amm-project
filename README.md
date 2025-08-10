@@ -74,6 +74,6 @@ cargo >= 1.70.0
 
 **1. Clone Repository**
 ``` bash
-git clone https://github.com/yourusername/token22-amm-project.git
+git clone https://github.com/TokenHarvester/token22-amm-project.git
 cd token22-amm-project
 ```

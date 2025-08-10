@@ -54,3 +54,26 @@ Built a complete AMM that natively supports Token-2022 with transfer hooks, feat
 - ✅ Fee collection and distribution
 - ✅ Emergency pause functionality
 - ✅ Upgradeable program architecture
+
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+``` bash
+# Core Dependencies
+node >= 16.0.0
+rust >= 1.70.0
+solana-cli >= 1.17.0
+anchor-cli >= 0.29.0
+
+# Package Managers
+npm >= 8.0.0
+cargo >= 1.70.0
+```
+
+## 🛠️ Installation & Setup
+
+**1. Clone Repository**
+``` bash
+git clone https://github.com/yourusername/token22-amm-project.git
+cd token22-amm-project
+```

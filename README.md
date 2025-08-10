@@ -137,3 +137,42 @@ REACT_APP_SOLANA_NETWORK=devnet
 REACT_APP_SWAP_PROGRAM_ID=YourSwapProgramId
 REACT_APP_HOOK_PROGRAM_ID=YourHookProgramId
 ```
+
+## 💻 Usage Guide
+
+**1. Create Token-2022 with Transfer Hook**
+``` bash
+// The UI will guide you through:
+1. Connect your Solana wallet
+2. Enter token name and symbol
+3. Click "Create Token-2022"
+4. Approve transaction in wallet
+5. Copy the generated mint address
+```
+
+**2. Create Liquidity Pool**
+``` bash
+// Using the frontend interface:
+1. Paste Token A mint address
+2. Paste Token B mint address
+3. Click "Create Pool"
+4. Transaction will validate hooks before creation
+```
+
+**3. Add Liquidity**
+``` bash
+// Through the pool interface:
+1. Select your created pool
+2. Enter amounts for both tokens
+3. Set slippage tolerance
+4. Execute "Add Liquidity"
+```
+
+**4. Execute Swaps**
+``` bash
+// Via the swap interface:
+1. Select input/output tokens
+2. Enter swap amount
+3. Review route and fees
+4. Execute swap with hook validation
+```

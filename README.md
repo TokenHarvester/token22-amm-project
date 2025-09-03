@@ -2,7 +2,7 @@
 
 ## Deployed UI
 
-https://token22-lr3cb3dbe-elochuwku-orjis-projects.vercel.app/
+https://token22-amm-navy.vercel.app/
 
 ## Deployed Program to Devnet
 
